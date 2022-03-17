@@ -12,7 +12,7 @@ function xequemate() {
     var timer3 = setInterval(function () { begin() }, 13900);
     var count = 10;
     img.src = "./assets/xm.png";
-    //Função para começar o contador, apresentar o número ao invés do texto e dar plau no som.
+    //Função para começar o contador, apresentar o número ao invés do texto e dar play no som.
     function start() {
         beep();
         texto.innerHTML = count;
